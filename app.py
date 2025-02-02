@@ -38,7 +38,7 @@ elif app_mode == "DISEASE RECOGNITION":
 
     if test_image:
         image = Image.open(test_image)
-        st.image(image, use_column_width=True)
+        st.image(image, use_container_width=True)
 
     if st.button("Predict"):
         if test_image:
