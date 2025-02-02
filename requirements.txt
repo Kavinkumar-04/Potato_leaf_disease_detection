@@ -3,3 +3,4 @@ keras
 opencv_python_headless
 ipykernel
 matplotlib
+gdown
